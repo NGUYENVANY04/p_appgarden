@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1012124243868",
+    "firebase_url": "https://giahuy-7d9bc-default-rtdb.firebaseio.com",
+    "project_id": "giahuy-7d9bc",
+    "storage_bucket": "giahuy-7d9bc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012124243868:android:9831380cb461213d1d5a59",
+        "android_client_info": {
+          "package_name": "com.example.p_appgarden"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPhwsq3aEL3LrniauOpBhdIvTDCXR772s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
