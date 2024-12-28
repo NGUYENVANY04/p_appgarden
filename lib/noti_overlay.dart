@@ -2,6 +2,7 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_overlay_window/flutter_overlay_window.dart';
+import 'package:flutter_ringtone_player/flutter_ringtone_player.dart';
 
 class TrueCallerOverlay extends StatefulWidget {
   const TrueCallerOverlay({super.key});
@@ -88,6 +89,7 @@ class _TrueCallerOverlayState extends State<TrueCallerOverlay> {
                   child: IconButton(
                     onPressed: () async {
                       await FlutterOverlayWindow.closeOverlay();
+                      FlutterRingtonePlayer().stop();
                     },
                     icon: const Icon(
                       Icons.close,
